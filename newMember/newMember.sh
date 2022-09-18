@@ -1,11 +1,15 @@
 #!/bin/bash
-mcgillEmail='nabil.amimer@mail.mcgill.ca'
-#create your private access token here : https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-access_token_git="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"
 
+############
+# please enter the necessary parameters yourself for the tokens. 
+############
+
+## enter your personal mcgill email
+mcgillEmail=''
+#create your private access token here : https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+access_token_git=''
 #atlassian api token : https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/
-access_token_atlassian='oWNBqD3BL0plPXQ01mkAAE20'
-organization_id_atlassian='d85e9744-7cea-4978-9064-a7917a97b25d'
+access_token_atlassian=''
 
 email=''
 gitUserName=''
