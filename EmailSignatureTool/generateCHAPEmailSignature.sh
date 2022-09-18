@@ -37,7 +37,7 @@ printf "Please enter your personal website (if any): "
 read PERSONAL_WEBSITE
 if  [ -z "$PERSONAL_WEBSITE" ] 
 	then
-	$PERSONAL_WEBSITE="https://www.instagram.com/chap_mcgill/"
+	PERSONAL_WEBSITE="https://www.instagram.com/chap_mcgill/"
 fi
 
 printf "\nHere is your signature: \n\n"
